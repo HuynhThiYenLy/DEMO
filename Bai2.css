@@ -1,0 +1,30 @@
+body {
+    font-family: Arial;
+    color: white;
+}
+header {
+    background-color: #4CAF50;
+}
+h1 {
+    margin-left: 20px;
+}
+section {
+    background-color:  #FF9800;
+    width: 50%;
+}
+footer {
+    background-color: #da952d;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        text-align: center;
+    }
+    section {
+        width: 90%;
+    }
+    .txtfooter {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
